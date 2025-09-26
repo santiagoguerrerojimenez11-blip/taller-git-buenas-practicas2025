@@ -3,6 +3,7 @@
 #Actividad de operaciones basicas colaborativas en git 
 
 
+
 def division():
     print("Operación: División")
     numero1 = int(input("Ingrese el primer número: "))
@@ -10,6 +11,15 @@ def division():
     return numero1 / numero2
 
 print(division())
+
+def resta():
+    print("Operación: Resta")
+    numero1 = int(input("Ingrese el primer número: "))
+    numero2 = int(input("Ingrese el segundo número: "))
+    return numero1 - numero2
+
+print(resta())
+
 
 def multiplicacion():
     print("Operación: Multiplicación")
